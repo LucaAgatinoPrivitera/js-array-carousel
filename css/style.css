@@ -7,7 +7,10 @@
 .body_container {
     max-width: 1200px;
     margin: auto;
-    padding-top: 3rem;
+    height: 100vh;
+}
+.carosello{
+    margin: auto;
 }
 
 .slide {
