@@ -1,0 +1,1 @@
+Carosello realizzato seguendo le direttive.
