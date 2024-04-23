@@ -50,8 +50,8 @@ document.getElementById("btnPrev").addEventListener("click", function prevImage(
     //precedente slide sarà idealmente quella attuale - 1
     prevSlide = immagineAttualmenteAttiva - 1;
 
-    //se però l'immagine successiva non c'è, allora resetta la slide alla prima
-    if (prevSlide = slides[0]) {
+    //se però l'immagine precedente non c'è, allora resetta la slide alla prima
+    if (prevSlide = 0) {
         //aiuto visivo per me, non è un merge
         prevSlide = slides.length;
     }
