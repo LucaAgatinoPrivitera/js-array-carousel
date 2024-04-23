@@ -11,6 +11,24 @@
 }
 .carosello{
     margin: auto;
+    position: relative;
+}
+.fa-arrow-up,
+.fa-arrow-down{
+    position: absolute;
+    left: 50%;
+    transform: translateX(calc(50% - 0.3rem));
+    padding: 0.3rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.fa-arrow-up{
+    top: 3rem;
+    left: 50%;
+}
+.fa-arrow-down{
+    bottom: 0.7rem;
+    left: 50%;
 }
 
 .slide {
