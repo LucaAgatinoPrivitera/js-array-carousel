@@ -51,7 +51,7 @@ document.getElementById("btnPrev").addEventListener("click", function prevImage(
     prevSlide = immagineAttualmenteAttiva - 1;
 
     //se però l'immagine precedente non c'è, allora resetta la slide all'ultima
-    if (prevSlide = 0) {
+    if (prevSlide <= 0) {
         //aiuto visivo per me, non è un merge
         prevSlide = 4;
     }
