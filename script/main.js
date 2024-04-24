@@ -49,6 +49,7 @@ document.getElementById("btnPrev").addEventListener("click", function prevImage(
 
     //precedente slide sarà idealmente quella attuale - 1
     prevSlide = immagineAttualmenteAttiva - 1;
+    console.log(prevSlide); //IMPORTANTE PERCHÈ ALTRIMENTI VIENE MESSO A -1 QUANDO LA FOTO È 0
 
     //se però l'immagine precedente non c'è, allora resetta la slide all'ultima
     if (prevSlide <= 0) {
